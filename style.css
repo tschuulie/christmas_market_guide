@@ -1,0 +1,99 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: red;
+}
+
+.navigation {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+.banner-city {
+    background-color: forestgreen;
+    height: 500px;
+    width: 30vw;
+}
+
+.market-previews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.market-article {
+    background-color: magenta;
+    width: 75vw;
+    height: 200px;
+    margin: 1.5rem;
+}
+
+.banner-article {
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    height: 500px;
+}
+
+.blog-overview-grid {
+    margin: 1.5rem 3rem;
+    display: grid;
+    row-gap: 2rem;
+    column-gap: 4rem;
+    grid-template-columns: auto auto;
+}
+
+.blog-article {
+    background-color: mediumorchid;
+}
+
+.blog-article.link-1 {
+    grid-row: 1 / span 2;
+}
+
+.blog-article.link-2 {
+    height: 200px;
+}
+
+.blog-article.link-3 {
+    height: 200px;
+}
+
+.reviews {
+    margin: 3rem;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.review-card {
+    background-color: mediumseagreen;
+    width: 25vw;
+    height: 400px;
+}
+
+.footer {
+    background-color: red;
+    width: 100vw;
+    height: 150px;
+}
