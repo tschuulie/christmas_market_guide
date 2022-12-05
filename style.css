@@ -561,3 +561,62 @@ a {
     text-align: center;
     padding-top: 2rem;
 }
+
+header {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .header-text-jemma {
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+  }
+  
+  .navbar-jemma {
+    overflow: hidden;
+    background-color: lightgrey;
+  }
+  
+  .navbar-jemma a {
+    float: left;
+    display: block;
+    color: var(--darkgrey);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-jemma a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .column {
+    text-align: center;
+    padding: 20px;
+  }
+  
+    .card {
+    background-color: white;
+    padding: 40px;
+    margin: 1px auto;
+    width: 70%;
+    display: block;
+    border-bottom: 2px double var(--grey);
+  }
+    
+  img {
+    width: 70%;
+    margin: 1px auto;
+    display: block;
+  }
+  
+.paragraph-jemma {
+    width: 70%;
+    margin: 15px auto;
+    display: block;
+}
